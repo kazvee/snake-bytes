@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Bytes Dinner Planner</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <h1>Snake Bytes Dinner Planner</h1>
+    </header>
+    <div class="container">
+        <p>Enter your dinner ideas below for a randomly generated weekly meal plan, including a special treat!
+        </p>
+        <form method="POST" action="/">
+            {% for i in range(6) %}
+            <input type="text" id="meal_{{ i }}" name="meal_{{ i }}" placeholder="Enter a meal idea . . . "
+                required><br>
+            {% endfor %}
+            <input type="submit" value="Generate Meal Plan">
+        </form>
+        {% if error %}
+        <p class="error">{{ error }}</p>
+        {% endif %}
+    </div>
+    <footer>
+        <p>Made with <a href="https://github.com/kazvee/snake-bytes" target="_blank">this code</a> and a lovely
+            background image from <a
+                href="https://www.freepik.com/free-photo/flat-lay-arrangement-delicious-ripe-produces_12726143.htm"
+                target="_blank">Freepik</a>
+        </p>
+        </p>
+    </footer>
+</body>
