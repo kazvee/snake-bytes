@@ -20,7 +20,7 @@
             <input type="text" id="meal_{{ i }}" name="meal_{{ i }}" placeholder="Enter a meal idea" class="input-field"
                 required>
             {% endfor %}
-            <input type="submit" value="Generate Meal Plan">
+            <button type="submit" class="btn">Generate Weekly Dinner Plan</button>
         </form>
         {% if error %}
         <p class="error">{{ error }}</p>
