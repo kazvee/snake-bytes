@@ -26,19 +26,8 @@ header {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 100px;
-    padding: 20px;
+    padding: 30px;
     width: 50%;
-}
-
-footer {
-    background-color: rgba(204, 197, 0, 0.95);
-    bottom: 0;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
-    margin-top: auto;
-    padding: 5px 0;
-    position: relative;
-    text-align: center;
-    width: 100%;
 }
 
 h1 {
@@ -46,8 +35,17 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-size: 1em;
+}
+
 .day-name {
     font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 li {
@@ -56,7 +54,22 @@ li {
 }
 
 form {
-    margin-top: 20px;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.input-field {
+    background-color: #F6ECDE;
+    border-radius: 4px;
+    border: 1px solid #4e5008;
+    font-family: Verdana, Arial, sans-serif;
+    margin-bottom: 10px;
+    max-width: 400px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    width: 80%;
 }
 
 input[type="text"] {
@@ -81,15 +94,28 @@ input[type="submit"],
     display: inline-block;
     font-family: Verdana, Arial, sans-serif;
     font-size: 1em;
-    margin: 10px 0;
+    margin-top: 10px;
+    max-width: 200px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
+    width: 100%;
 }
 
 input[type="submit"]:hover,
 .btn:hover {
     background-color: #6f6b00;
+}
+
+footer {
+    background-color: rgba(204, 197, 0, 0.95);
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: auto;
+    padding: 5px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
 .sr-only {
