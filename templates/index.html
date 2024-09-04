@@ -13,10 +13,10 @@
         <h1>Snake Bytes Dinner Planner</h1>
     </header>
     <main class="container">
-        <p>Enter your dinner ideas below for a randomly generated weekly meal plan, including a special treat!
-        </p>
+        <p>Enter your dinner ideas below for a randomly generated weekly meal plan, including a special treat!</p>
         <form method="POST" action="/">
             {% for i in range(6) %}
+            <label for="meal_{{ i }}" class="sr-only">Meal Idea {{ i + 1 }}</label>
             <input type="text" id="meal_{{ i }}" name="meal_{{ i }}" placeholder="Enter a meal idea" required><br>
             {% endfor %}
             <input type="submit" value="Generate Meal Plan">
@@ -29,8 +29,6 @@
         <p>Made with <a href="https://github.com/kazvee/snake-bytes" target="_blank">this code</a> and a lovely
             background image from <a
                 href="https://www.freepik.com/free-photo/flat-lay-arrangement-delicious-ripe-produces_12726143.htm"
-                target="_blank">Freepik</a>
-        </p>
-        </p>
+                target="_blank">Freepik</a></p>
     </footer>
 </body>
