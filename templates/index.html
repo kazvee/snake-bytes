@@ -17,8 +17,7 @@
         </p>
         <form method="POST" action="/">
             {% for i in range(6) %}
-            <input type="text" id="meal_{{ i }}" name="meal_{{ i }}" placeholder="Enter a meal idea . . . "
-                required><br>
+            <input type="text" id="meal_{{ i }}" name="meal_{{ i }}" placeholder="Enter a meal idea" required><br>
             {% endfor %}
             <input type="submit" value="Generate Meal Plan">
         </form>
