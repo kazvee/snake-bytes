@@ -12,14 +12,14 @@
     <header>
         <h1>Your Weekly Dinner Plan:</h1>
     </header>
-    <div class="container">
+    <main class="container">
         <ul>
             {% for day, meal in meal_plan %}
             <li><span class="day-name">{{ day }}</span>: {{ meal }}</li>
             {% endfor %}
         </ul>
         <a href="{{ url_for('index') }}" class="btn">Plan More Dinners</a>
-    </div>
+    </main>
     <footer>
         <p>Made with <a href="https://github.com/kazvee/snake-bytes" target="_blank">this code</a> and a lovely
             background image from <a
