@@ -18,7 +18,7 @@
             <li><span class="day-name">{{ day }}</span>: {{ meal }}</li>
             {% endfor %}
         </ul>
-        <a href="{{ url_for('index') }}" class="btn">Plan More Dinners</a>
+        <button class="btn" onclick="window.location.href=`{{ url_for('index') }}`">Plan More Dinners</button>
     </main>
     <footer>
         <p>Made with <a href="https://github.com/kazvee/snake-bytes" target="_blank">this code</a> and a lovely
