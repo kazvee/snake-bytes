@@ -25,7 +25,8 @@ header {
     background-color: rgba(204, 197, 0, 0.95);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-top: 50px;
     padding: 30px;
     width: 50%;
 }
@@ -37,6 +38,7 @@ h1 {
 
 h2 {
     font-size: 1em;
+    margin: 10px 0;
 }
 
 .day-name {
@@ -57,7 +59,7 @@ form {
     align-items: left;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .input-field {
@@ -95,7 +97,7 @@ input[type="submit"],
     font-family: Verdana, Arial, sans-serif;
     font-size: 1em;
     margin-top: 10px;
-    max-width: 200px;
+    max-width: 300px;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -113,7 +115,7 @@ footer {
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
     margin-top: auto;
     padding: 5px 0;
-    position: relative;
+    position: sticky;
     text-align: center;
     width: 100%;
 }
@@ -133,4 +135,36 @@ footer {
     color: red;
     font-size: 1.25em;
     margin-top: 20px;
+}
+
+/* Media query - smaller screens */
+@media only screen and (max-width: 375px) {
+
+    h1 {
+        font-size: 1.25em;
+    }
+
+    h2 {
+        font-size: 0.8em;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    input[type="submit"],
+    .btn {
+        font-size: 0.8em;
+    }
+
+    footer {
+        bottom: 0;
+        font-size: 0.75em;
+        padding: 5px 0;
+        position: fixed;
+    }
+
+    .error {
+        font-size: 0.9em;
+    }
 }
