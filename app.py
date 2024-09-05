@@ -12,7 +12,7 @@ def index():
     if request.method == 'POST':
         meals = [request.form[f'meal_{i}'] for i in range(6)]
         if all(meal.strip() and not meal.isdigit() for meal in meals):
-            meals.append("Treat Night - Visit or order from your favorite restaurant")
+            meals.append("Treat Night: Visit or order from your favourite restaurant!")
             shuffled_meals = shuffle_meals(meals)
             days_of_week = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
             meal_plan = list(zip(days_of_week, shuffled_meals))
