@@ -3,15 +3,28 @@
 ✨ [LIVE DEMO](https://kazvee.pythonanywhere.com/) ✨  
 
 ## Description
-Snake Bytes Dinner Planner is a Flask web application that generates a weekly meal plan based on user input.  
 
-Users can enter their meal ideas, and the app will shuffle them and assign them to each day of the week, including a special treat night.
+Snake Bytes Dinner Planner is a weekly meal planning app written in Python that uses the Flask framework. 
+
+## Use Case
+
+After buying groceries for the upcoming week, users can enter meal ideas based on the items they purchased, allowing the app to generate a personalized dinner plan. 🍽️
+
+This helps eliminate the daily dilemma of deciding what to cook after a long day and ensures that the groceries are used efficiently, reducing food waste and spoilage. 🌍
+
+The app shuffles the user's meal ideas and creates a weekly dinner plan. As an added bonus, it includes a randomly scheduled Treat Night — because who wants to cook _every single day_?! 😄
 
 ## Screenshots
 
+### Main View
+
 ![](static/readme/Snake_Bytes_Main_View.png)
 
+### Dinner Plan Results View
+
 ![](static/readme/Snake_Bytes_Results_View.png)
+
+### Input Validation Example
 
 ![](static/readme/Snake_Bytes_Input_Validation.png)
 
