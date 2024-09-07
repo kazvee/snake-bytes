@@ -14,6 +14,10 @@ This helps eliminate the daily dilemma of deciding what to cook after a long day
 
 The app shuffles the user's meal ideas and creates a weekly dinner plan. As an added bonus, it includes a randomly scheduled Treat Night — because who wants to cook _every single day_?! 😄
 
+## Demo Video
+
+https://github.com/user-attachments/assets/fbc45632-b4c9-4fae-823b-1315b68df85a
+
 ## Screenshots
 
 ### Main View
