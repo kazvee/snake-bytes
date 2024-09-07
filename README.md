@@ -7,6 +7,14 @@ Snake Bytes Dinner Planner is a Flask web application that generates a weekly me
 
 Users can enter their meal ideas, and the app will shuffle them and assign them to each day of the week, including a special treat night.
 
+## Screenshots
+
+![](static/readme/Snake_Bytes_Main_View.png)
+
+![](static/readme/Snake_Bytes_Results_View.png)
+
+![](static/readme/Snake_Bytes_Input_Validation.png)
+
 ## Getting Started
 
 ### Prerequisites
