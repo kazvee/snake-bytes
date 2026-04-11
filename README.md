@@ -1,6 +1,6 @@
 # Snake Bytes Dinner Planner
 
-✨ [LIVE DEMO](https://kazvee.pythonanywhere.com/) ✨  
+✨ [LIVE DEMO](https://snakebytes.kazvee.com/) ✨  
 
 ## Description
 
