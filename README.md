@@ -1,7 +1,5 @@
 # Snake Bytes Dinner Planner
 
-✨ [LIVE DEMO](https://snakebytes.kazvee.com/) ✨  
-
 ## Description
 
 Snake Bytes Dinner Planner is a weekly meal planning app written in Python that uses the Flask framework. 
